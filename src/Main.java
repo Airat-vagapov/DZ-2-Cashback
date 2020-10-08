@@ -6,7 +6,7 @@ public class Main {
         int expensesIncreased = 3_213_53;
         int expensesSpecialOffer = 253_02;
 
-//      Задаем процены кэшбека по каждой категории
+//      Задаем проценты кэшбека по каждой категории
         int cashbackPercentRegular = 1;
         int cashbackPercentIncreased = 5;
         int cashbackPercentSpecialOffer = 30;
@@ -16,7 +16,7 @@ public class Main {
         int cashbackIncreased = expensesIncreased * cashbackPercentIncreased / 100;
         int cashbackSpecialOffer = expensesSpecialOffer * cashbackPercentSpecialOffer /100;
 
-//      Вывод суммы кэшебка по каждой категории
+//      Вывод суммы кэшбека по каждой категории
 //        System.out.println(cashbackRegular);
 //        System.out.println(cashbackIncreased);
 //        System.out.println(cashbackSpecialOffer);

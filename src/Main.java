@@ -11,15 +11,10 @@ public class Main {
         int cashbackPercentIncreased = 5;
         int cashbackPercentSpecialOffer = 30;
 
-//      Расчет суммы кешбека по каждой категории
+//      Расчет суммы кэшбека по каждой категории
         int cashbackRegular = expensesRegular * cashbackPercentRegular / 100;
         int cashbackIncreased = expensesIncreased * cashbackPercentIncreased / 100;
         int cashbackSpecialOffer = expensesSpecialOffer * cashbackPercentSpecialOffer /100;
-
-//      Вывод суммы кэшбека по каждой категории
-//        System.out.println(cashbackRegular);
-//        System.out.println(cashbackIncreased);
-//        System.out.println(cashbackSpecialOffer);
 
 //      Расчет общей суммы кэшбека
         int cashbackSum = cashbackRegular + cashbackIncreased + cashbackSpecialOffer;
